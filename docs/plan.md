@@ -20,11 +20,10 @@ Work on ONE milestone at a time. Each milestone is one branch (`milestone/NN-nam
 - [x] Verify: create `.venv`, upgrade pip, `pip install -e ".[dev]"`
 - [x] Save plan and milestones in `docs/plan.md`
 
-## Milestone 2 - Core auction logic and env loader (`milestone/02-core-logic`)
+## Milestone 2 - Core auction logic (`milestone/02-core-logic`)
 
-- [ ] `auction.py` (Doxygen comments): `add_bid`, `find_winner` (uses `max(bids, key=bids.get)`, `ValueError` on empty)
-- [ ] `env.py`: stdlib `.env` loader (no python-dotenv); does not override existing environment variables
-- [ ] `tests/test_auction.py`, `tests/test_env.py`
+- [x] `auction.py` (Doxygen comments): `add_bid`, `find_winner` (uses `max(bids, key=bids.get)`, `ValueError` on empty)
+- [x] `tests/test_auction.py`
 - Verify: `pytest` passes
 
 ## Milestone 3 - CLI program (`milestone/03-cli`)

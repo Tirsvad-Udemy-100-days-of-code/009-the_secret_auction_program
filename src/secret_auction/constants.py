@@ -11,12 +11,6 @@ YES_ANSWERS = ("yes", "y")
 ## Answers accepted as "no" when asking for more bidders.
 NO_ANSWERS = ("no", "n")
 
-## Path of the file holding environment variables (tokens).
-ENV_FILE = ".env"
-
-## Name of the environment variable holding the Gitea token.
-GITEA_TOKEN_ENV_VAR = "GITEA_TOKEN"
-
 ## Prompt asking for the bidder's name.
 PROMPT_NAME = "What is your name? "
 
