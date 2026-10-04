@@ -18,6 +18,16 @@ This is the Day 9 project of Udemy's *100 Days of Code: The Complete Python Pro 
 
 See the [program flowchart](docs/flowchart.md) and the [plan and milestones](docs/plan.md).
 
+### 🖼️ Screenshots
+
+Entering a bid:
+
+![Entering a bid](docs/images/bidding.png)
+
+Announcing the winner:
+
+![Announcing the winner](docs/images/winner.png)
+
 ## 📋 Requirements
 
 - Python 3.13 or newer
