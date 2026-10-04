@@ -28,8 +28,8 @@ Work on ONE milestone at a time. Each milestone is one branch (`milestone/NN-nam
 
 ## Milestone 3 - CLI program (`milestone/03-cli`)
 
-- [ ] `main.py`: prompt name and numeric bid (re-prompt on invalid), bids dict kept outside the loop, "other bidders? yes/no", clear screen with newlines between bidders, announce the winner
-- [ ] `tests/test_main.py` with monkeypatched `input`
+- [x] `main.py`: prompt name and numeric bid (re-prompt on invalid), bids dict kept outside the loop, "other bidders? yes/no", clear screen with newlines between bidders, announce the winner
+- [x] `tests/test_main.py` with monkeypatched `input`
 - Verify: `pytest`; scripted run `python -m secret_auction.main` with two bidders
 
 ## Milestone 4 - Documentation (`milestone/04-docs`)
