@@ -34,7 +34,7 @@ Work on ONE milestone at a time. Each milestone is one branch (`milestone/NN-nam
 
 ## Milestone 4 - Documentation (`milestone/04-docs`)
 
-- [ ] `README.md` from the template (Overview, Requirements, Setup incl. creating/activating `.venv` and `python -m pip install --upgrade pip`, Run, Tests, License AGPL, Links)
-- [ ] `docs/flowchart.md` (Mermaid plus link to the diagrams.net chart)
-- [ ] Generate Doxygen docs if `doxygen` is installed
+- [x] `README.md` from the template (Overview, Requirements, Setup incl. creating/activating `.venv` and `python -m pip install --upgrade pip`, Run, Tests, License AGPL, Links)
+- [x] `docs/flowchart.md` (Mermaid plus link to the diagrams.net chart)
+- [x] Generate Doxygen docs if `doxygen` is installed
 - Verify: README commands work verbatim; `.env` stays untracked
