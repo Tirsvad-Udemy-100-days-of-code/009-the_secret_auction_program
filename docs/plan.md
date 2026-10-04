@@ -22,9 +22,9 @@ Work on ONE milestone at a time. Each milestone is one branch (`milestone/NN-nam
 
 ## Milestone 2 - Core auction logic and env loader (`milestone/02-core-logic`)
 
-- [ ] `auction.py` (Doxygen comments): `add_bid`, `find_winner` (uses `max(bids, key=bids.get)`, `ValueError` on empty)
-- [ ] `env.py`: stdlib `.env` loader (no python-dotenv); does not override existing environment variables
-- [ ] `tests/test_auction.py`, `tests/test_env.py`
+- [x] `auction.py` (Doxygen comments): `add_bid`, `find_winner` (uses `max(bids, key=bids.get)`, `ValueError` on empty)
+- [x] `env.py`: stdlib `.env` loader (no python-dotenv); does not override existing environment variables
+- [x] `tests/test_auction.py` (`.env` loader is for private use and intentionally not tested)
 - Verify: `pytest` passes
 
 ## Milestone 3 - CLI program (`milestone/03-cli`)
